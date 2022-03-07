@@ -2,13 +2,14 @@ public class ControleWhile {
 
     public static void main(String[] args)  {
 
-        int x = 15;
+        int x = 20;
 
-        while (x < 18)  {
+        do {
+
             System.out.println("Você não tem permissão para entrar");
-            break;
             x++;
 
-        }
+        } while (x < 18);
+
     }
 }
