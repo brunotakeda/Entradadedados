@@ -6,6 +6,7 @@ public class ControleWhile {
 
         while (x < 18)  {
             System.out.println("Você não tem permissão para entrar");
+            break;
             x++;
 
         }
